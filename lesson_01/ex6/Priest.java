@@ -1,4 +1,4 @@
-package Lesson_07.Ex006;
+package lesson_01.ex6;
 
 public class Priest extends BaseHero {
 
