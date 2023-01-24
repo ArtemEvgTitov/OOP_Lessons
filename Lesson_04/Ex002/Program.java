@@ -1,4 +1,4 @@
-package Lesson_04.Ex002;
+package Ex002;
 
 import java.util.UUID;
 
