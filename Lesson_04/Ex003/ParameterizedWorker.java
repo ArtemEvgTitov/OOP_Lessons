@@ -1,4 +1,4 @@
-package Lesson_10.Ex003;
+package Lesson_04.Ex003;
 
 public class ParameterizedWorker<E> {
     private E id;
