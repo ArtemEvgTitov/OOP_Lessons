@@ -1,4 +1,4 @@
-package Lesson_10.Ex004.V3;
+package Lesson_04.Ex004.V3;
 
 public abstract class Content {
     public String name;
