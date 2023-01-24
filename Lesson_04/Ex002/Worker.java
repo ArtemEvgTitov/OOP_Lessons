@@ -1,4 +1,4 @@
-package Lesson_10.Ex002;
+package Lesson_04.Ex002;
 
 public class Worker {
     private int id;
