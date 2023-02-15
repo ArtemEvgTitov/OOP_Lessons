@@ -1,7 +1,6 @@
 package Ex001Calc;
 
 public class PresenterOfT<T extends CalcModel> {
- 
 
     View view;
     Model model;
@@ -11,7 +10,7 @@ public class PresenterOfT<T extends CalcModel> {
         view = v;
     }
 
-    public void buttonClick(){
+    public void buttonClick() {
         int a = view.getValue("a: ");
         int b = view.getValue("b: ");
         model.setX(a);

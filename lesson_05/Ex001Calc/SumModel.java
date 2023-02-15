@@ -3,8 +3,9 @@ package Ex001Calc;
 public class SumModel extends CalcModel {
 
     public SumModel() {
-        
+
     }
+
     // do_it
     @Override
     public int result() {
