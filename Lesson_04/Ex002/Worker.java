@@ -19,7 +19,6 @@ public class Worker {
         this.age = age;
         this.salary = salary;
 
-        
     }
 
     public String fullName() {

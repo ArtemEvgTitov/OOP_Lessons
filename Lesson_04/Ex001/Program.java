@@ -6,8 +6,8 @@ import java.util.List;
 public class Program {
     public static void main(String[] args) {
         // #region type save
-        // List<String> list = new ArrayList<String>(); 
-        //// List<String> list = new ArrayList<>(); 
+        // List<String> list = new ArrayList<String>();
+        //// List<String> list = new ArrayList<>();
         //// new ArrayList<>(); != new ArrayList();
 
         // for (int i = 1; i <= 5; i++) {
@@ -35,17 +35,18 @@ public class Program {
 
         list.add(123);
         System.out.println(list);
-        //System.out.println(allLength(list));
-        // ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String
+        // System.out.println(allLength(list));
+        // ClassCastException: class java.lang.Integer cannot be cast to class
+        // java.lang.String
 
         // #endregion
 
     }
 
     static int allLength(List li) {
-        int count =0;
+        int count = 0;
         for (Object o : li) {
-            count += ((String)o).length();
+            count += ((String) o).length();
         }
         return count;
     }
