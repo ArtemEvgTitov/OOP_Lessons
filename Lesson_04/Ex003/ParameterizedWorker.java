@@ -28,9 +28,11 @@ public class ParameterizedWorker<E> {
     public E getId() {
         return id;
     }
+
     public void setId(E e) {
         id = e;
     }
+
     public String fullName() {
         return String.format("%s %s", firstName, lastName);
     }

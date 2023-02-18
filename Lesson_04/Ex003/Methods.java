@@ -22,10 +22,9 @@ public class Methods {
         return col.get(index);
     }
 
-
     // #endregion
 
-    //#region
+    // #region
 
     public static <T1, T2> T2 put(T1 arg1, T2 arg2) {
         // Map<Integer,String> hm = new HashMap<>();
@@ -33,5 +32,5 @@ public class Methods {
         return arg2;
     }
 
-    //#endregion
+    // #endregion
 }
