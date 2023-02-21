@@ -5,7 +5,7 @@ import java.util.UUID;
 public class Program {
     public static void main(String[] args) {
 
-        Worker w = new Worker(28, "firstName", "lastName", 20, 22);
+        // Worker w = new Worker(28, "firstName", "lastName", 20, 22);
 
         // #region ParameterizedWorker
 

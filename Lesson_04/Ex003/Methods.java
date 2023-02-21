@@ -1,8 +1,8 @@
 package Ex003;
 
-import java.util.HashMap;
+// import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
+// import java.util.Map;
 
 public class Methods {
     public static Integer getElementFromIntegerCollection(List<Integer> col, int index) {
