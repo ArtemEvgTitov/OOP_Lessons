@@ -12,6 +12,7 @@ public class Ex004_2ISP {
 
 interface BasePhone {
     void Call();
+
     void SendSMS();
 }
 
@@ -32,13 +33,11 @@ class IPhone implements BasePhone, Fax, EMail {
 
     @Override
     public void SendSMS() {
-       
 
     }
 
     @Override
     public void SendEMail() {
-        
 
     }
 

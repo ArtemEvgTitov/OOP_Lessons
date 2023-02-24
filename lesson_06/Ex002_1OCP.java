@@ -16,7 +16,7 @@ class Client {
     }
 
     public double getDiscount(double price) {
-        return (clientType == 1) ? price *0.85 : price *0.95;
+        return (clientType == 1) ? price * 0.85 : price * 0.95;
     }
 }
 

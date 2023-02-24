@@ -25,33 +25,37 @@ class PlannerSRP {
     public void addEntry(String text) {
         entries.add(text);
     }
+
     public void removeEntry(int index) {
         entries.remove(index);
     }
+
     @Override
     public String toString() {
         return String.join("\n", entries);
-    }    
+    }
 }
 
-
 class DataManager {
-    private boolean check(String filenameOfConnect){
+    private boolean check(String filenameOfConnect) {
         return true;
     }
 
-    public void saveAllText(PlannerSRP planner,String path) {
+    public void saveAllText(PlannerSRP planner, String path) {
         /// ошибки связанные с...
-        if(check(path));///
+        if (check(path))
+            ;///
     }
-    
-    public void loadFromFile(PlannerSRP planner,String path) {
+
+    public void loadFromFile(PlannerSRP planner, String path) {
         /// ошибки связанные с...
-        if(check(path));///
+        if (check(path))
+            ;///
     }
 
     public void loadFromDB(String url, String username, String password) {
         /// ошибки связанные с...
-        if(check(url));///
-    }    
+        if (check(url))
+            ;///
+    }
 }
