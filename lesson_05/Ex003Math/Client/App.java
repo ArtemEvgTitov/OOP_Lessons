@@ -25,7 +25,6 @@ public class App {
                 .append("3 - show all area\n")
                 .append("0 - exit\n");
 
-
         while (true) {
             ui.set(sb.toString());
             switch (ui.get()) {

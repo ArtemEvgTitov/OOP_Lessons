@@ -1,11 +1,11 @@
 package Ex003Math.Client;
 
 import Ex003Math.Mathematics.Exceptions.UnacceptableValueException;
-import Ex003Math.Mathematics.CalculateArea.CalculateArea;
-import Ex003Math.Mathematics.Shapes.Canvas;
-import Ex003Math.Mathematics.Shapes.Circle;
-import Ex003Math.Mathematics.Shapes.Rectangle;
-import Ex003Math.Mathematics.Shapes.Shape;
+// import Ex003Math.Mathematics.CalculateArea.CalculateArea;
+// import Ex003Math.Mathematics.Shapes.Canvas;
+// import Ex003Math.Mathematics.Shapes.Circle;
+// import Ex003Math.Mathematics.Shapes.Rectangle;
+// import Ex003Math.Mathematics.Shapes.Shape;
 
 public class Program {
     public static void main(String[] args) throws UnacceptableValueException {
@@ -23,7 +23,6 @@ public class Program {
 
         // Canvas canvas = new Canvas("Canvas");
 
-       
         // shape2.shapes.add(shape1);
         // shape4.shapes.add(shape2);
         // shape4.shapes.add(shape3);
@@ -33,7 +32,6 @@ public class Program {
         // canvas.shapes.add(shape6);
 
         // System.out.println(canvas);
-
 
         // #endregion
     }
